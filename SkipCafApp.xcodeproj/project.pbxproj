@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3DBBBD52C63AC7B00FEBC88 /* SkipCafAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DBBBD42C63AC7B00FEBC88 /* SkipCafAppApp.swift */; };
+		D3DBBBD72C63AC7B00FEBC88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DBBBD62C63AC7B00FEBC88 /* ContentView.swift */; };
+		D3DBBBD92C63AC7E00FEBC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DBBBD82C63AC7E00FEBC88 /* Assets.xcassets */; };
+		D3DBBBDC2C63AC7E00FEBC88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DBBBDB2C63AC7E00FEBC88 /* Preview Assets.xcassets */; };
+		D3DBBBE72C63AC7F00FEBC88 /* SkipCafAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DBBBE62C63AC7F00FEBC88 /* SkipCafAppTests.swift */; };
+		D3DBBBF22C63AC7F00FEBC88 /* SkipCafAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DBBBF12C63AC7F00FEBC88 /* SkipCafAppUITests.swift */; };
+		D3DBBC002C63ADE400FEBC88 /* StudentLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DBBBFF2C63ADE400FEBC88 /* StudentLoginView.swift */; };
+		D3DBBC022C63AF5D00FEBC88 /* StudentDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DBBC012C63AF5D00FEBC88 /* StudentDashboardView.swift */; };
+		D3DBBC042C64F72900FEBC88 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DBBC032C64F72800FEBC88 /* CartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3DBBBE32C63AC7F00FEBC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DBBBC92C63AC7B00FEBC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DBBBD02C63AC7B00FEBC88;
+			remoteInfo = SkipCafApp;
+		};
+		D3DBBBEE2C63AC7F00FEBC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DBBBC92C63AC7B00FEBC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DBBBD02C63AC7B00FEBC88;
+			remoteInfo = SkipCafApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3DBBBD12C63AC7B00FEBC88 /* SkipCafApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkipCafApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DBBBD42C63AC7B00FEBC88 /* SkipCafAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipCafAppApp.swift; sourceTree = "<group>"; };
+		D3DBBBD62C63AC7B00FEBC88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3DBBBD82C63AC7E00FEBC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3DBBBDB2C63AC7E00FEBC88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3DBBBDD2C63AC7E00FEBC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DBBBE22C63AC7F00FEBC88 /* SkipCafAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkipCafAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DBBBE62C63AC7F00FEBC88 /* SkipCafAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipCafAppTests.swift; sourceTree = "<group>"; };
+		D3DBBBE82C63AC7F00FEBC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DBBBED2C63AC7F00FEBC88 /* SkipCafAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkipCafAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DBBBF12C63AC7F00FEBC88 /* SkipCafAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipCafAppUITests.swift; sourceTree = "<group>"; };
+		D3DBBBF32C63AC7F00FEBC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DBBBFF2C63ADE400FEBC88 /* StudentLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLoginView.swift; sourceTree = "<group>"; };
+		D3DBBC012C63AF5D00FEBC88 /* StudentDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDashboardView.swift; sourceTree = "<group>"; };
+		D3DBBC032C64F72800FEBC88 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3DBBBCE2C63AC7B00FEBC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DBBBDF2C63AC7F00FEBC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DBBBEA2C63AC7F00FEBC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3DBBBC82C63AC7B00FEBC88 = {
+			isa = PBXGroup;
+			children = (
+				D3DBBBD32C63AC7B00FEBC88 /* SkipCafApp */,
+				D3DBBBE52C63AC7F00FEBC88 /* SkipCafAppTests */,
+				D3DBBBF02C63AC7F00FEBC88 /* SkipCafAppUITests */,
+				D3DBBBD22C63AC7B00FEBC88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3DBBBD22C63AC7B00FEBC88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3DBBBD12C63AC7B00FEBC88 /* SkipCafApp.app */,
+				D3DBBBE22C63AC7F00FEBC88 /* SkipCafAppTests.xctest */,
+				D3DBBBED2C63AC7F00FEBC88 /* SkipCafAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3DBBBD32C63AC7B00FEBC88 /* SkipCafApp */ = {
+			isa = PBXGroup;
+			children = (
+				D3DBBBD42C63AC7B00FEBC88 /* SkipCafAppApp.swift */,
+				D3DBBBD62C63AC7B00FEBC88 /* ContentView.swift */,
+				D3DBBBD82C63AC7E00FEBC88 /* Assets.xcassets */,
+				D3DBBBDD2C63AC7E00FEBC88 /* Info.plist */,
+				D3DBBBDA2C63AC7E00FEBC88 /* Preview Content */,
+				D3DBBBFF2C63ADE400FEBC88 /* StudentLoginView.swift */,
+				D3DBBC012C63AF5D00FEBC88 /* StudentDashboardView.swift */,
+				D3DBBC032C64F72800FEBC88 /* CartView.swift */,
+			);
+			path = SkipCafApp;
+			sourceTree = "<group>";
+		};
+		D3DBBBDA2C63AC7E00FEBC88 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3DBBBDB2C63AC7E00FEBC88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3DBBBE52C63AC7F00FEBC88 /* SkipCafAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DBBBE62C63AC7F00FEBC88 /* SkipCafAppTests.swift */,
+				D3DBBBE82C63AC7F00FEBC88 /* Info.plist */,
+			);
+			path = SkipCafAppTests;
+			sourceTree = "<group>";
+		};
+		D3DBBBF02C63AC7F00FEBC88 /* SkipCafAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DBBBF12C63AC7F00FEBC88 /* SkipCafAppUITests.swift */,
+				D3DBBBF32C63AC7F00FEBC88 /* Info.plist */,
+			);
+			path = SkipCafAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3DBBBD02C63AC7B00FEBC88 /* SkipCafApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DBBBF62C63AC7F00FEBC88 /* Build configuration list for PBXNativeTarget "SkipCafApp" */;
+			buildPhases = (
+				D3DBBBCD2C63AC7B00FEBC88 /* Sources */,
+				D3DBBBCE2C63AC7B00FEBC88 /* Frameworks */,
+				D3DBBBCF2C63AC7B00FEBC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkipCafApp;
+			productName = SkipCafApp;
+			productReference = D3DBBBD12C63AC7B00FEBC88 /* SkipCafApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3DBBBE12C63AC7F00FEBC88 /* SkipCafAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DBBBF92C63AC7F00FEBC88 /* Build configuration list for PBXNativeTarget "SkipCafAppTests" */;
+			buildPhases = (
+				D3DBBBDE2C63AC7F00FEBC88 /* Sources */,
+				D3DBBBDF2C63AC7F00FEBC88 /* Frameworks */,
+				D3DBBBE02C63AC7F00FEBC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DBBBE42C63AC7F00FEBC88 /* PBXTargetDependency */,
+			);
+			name = SkipCafAppTests;
+			productName = SkipCafAppTests;
+			productReference = D3DBBBE22C63AC7F00FEBC88 /* SkipCafAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3DBBBEC2C63AC7F00FEBC88 /* SkipCafAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DBBBFC2C63AC7F00FEBC88 /* Build configuration list for PBXNativeTarget "SkipCafAppUITests" */;
+			buildPhases = (
+				D3DBBBE92C63AC7F00FEBC88 /* Sources */,
+				D3DBBBEA2C63AC7F00FEBC88 /* Frameworks */,
+				D3DBBBEB2C63AC7F00FEBC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DBBBEF2C63AC7F00FEBC88 /* PBXTargetDependency */,
+			);
+			name = SkipCafAppUITests;
+			productName = SkipCafAppUITests;
+			productReference = D3DBBBED2C63AC7F00FEBC88 /* SkipCafAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3DBBBC92C63AC7B00FEBC88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D3DBBBD02C63AC7B00FEBC88 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D3DBBBE12C63AC7F00FEBC88 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D3DBBBD02C63AC7B00FEBC88;
+					};
+					D3DBBBEC2C63AC7F00FEBC88 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D3DBBBD02C63AC7B00FEBC88;
+					};
+				};
+			};
+			buildConfigurationList = D3DBBBCC2C63AC7B00FEBC88 /* Build configuration list for PBXProject "SkipCafApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3DBBBC82C63AC7B00FEBC88;
+			productRefGroup = D3DBBBD22C63AC7B00FEBC88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3DBBBD02C63AC7B00FEBC88 /* SkipCafApp */,
+				D3DBBBE12C63AC7F00FEBC88 /* SkipCafAppTests */,
+				D3DBBBEC2C63AC7F00FEBC88 /* SkipCafAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3DBBBCF2C63AC7B00FEBC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DBBBDC2C63AC7E00FEBC88 /* Preview Assets.xcassets in Resources */,
+				D3DBBBD92C63AC7E00FEBC88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DBBBE02C63AC7F00FEBC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DBBBEB2C63AC7F00FEBC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3DBBBCD2C63AC7B00FEBC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DBBC042C64F72900FEBC88 /* CartView.swift in Sources */,
+				D3DBBBD72C63AC7B00FEBC88 /* ContentView.swift in Sources */,
+				D3DBBBD52C63AC7B00FEBC88 /* SkipCafAppApp.swift in Sources */,
+				D3DBBC002C63ADE400FEBC88 /* StudentLoginView.swift in Sources */,
+				D3DBBC022C63AF5D00FEBC88 /* StudentDashboardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DBBBDE2C63AC7F00FEBC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DBBBE72C63AC7F00FEBC88 /* SkipCafAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DBBBE92C63AC7F00FEBC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DBBBF22C63AC7F00FEBC88 /* SkipCafAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3DBBBE42C63AC7F00FEBC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3DBBBD02C63AC7B00FEBC88 /* SkipCafApp */;
+			targetProxy = D3DBBBE32C63AC7F00FEBC88 /* PBXContainerItemProxy */;
+		};
+		D3DBBBEF2C63AC7F00FEBC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3DBBBD02C63AC7B00FEBC88 /* SkipCafApp */;
+			targetProxy = D3DBBBEE2C63AC7F00FEBC88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3DBBBF42C63AC7F00FEBC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3DBBBF52C63AC7F00FEBC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3DBBBF72C63AC7F00FEBC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SkipCafApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SkipCafApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NextGen.SkipCafApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3DBBBF82C63AC7F00FEBC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SkipCafApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SkipCafApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NextGen.SkipCafApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3DBBBFA2C63AC7F00FEBC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkipCafAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NextGen.SkipCafAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkipCafApp.app/SkipCafApp";
+			};
+			name = Debug;
+		};
+		D3DBBBFB2C63AC7F00FEBC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkipCafAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NextGen.SkipCafAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkipCafApp.app/SkipCafApp";
+			};
+			name = Release;
+		};
+		D3DBBBFD2C63AC7F00FEBC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkipCafAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NextGen.SkipCafAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkipCafApp;
+			};
+			name = Debug;
+		};
+		D3DBBBFE2C63AC7F00FEBC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkipCafAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NextGen.SkipCafAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkipCafApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3DBBBCC2C63AC7B00FEBC88 /* Build configuration list for PBXProject "SkipCafApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DBBBF42C63AC7F00FEBC88 /* Debug */,
+				D3DBBBF52C63AC7F00FEBC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DBBBF62C63AC7F00FEBC88 /* Build configuration list for PBXNativeTarget "SkipCafApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DBBBF72C63AC7F00FEBC88 /* Debug */,
+				D3DBBBF82C63AC7F00FEBC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DBBBF92C63AC7F00FEBC88 /* Build configuration list for PBXNativeTarget "SkipCafAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DBBBFA2C63AC7F00FEBC88 /* Debug */,
+				D3DBBBFB2C63AC7F00FEBC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DBBBFC2C63AC7F00FEBC88 /* Build configuration list for PBXNativeTarget "SkipCafAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DBBBFD2C63AC7F00FEBC88 /* Debug */,
+				D3DBBBFE2C63AC7F00FEBC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3DBBBC92C63AC7B00FEBC88 /* Project object */;
+}
